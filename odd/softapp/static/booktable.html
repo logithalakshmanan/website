@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book a Table - NAHDI MANDI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+    <a href="index.html">Home</a>
+    <a href="administration.html">Administration</a>
+    <a href="booktable.html">Book Table</a>
+</nav>
+
+<!-- Banner -->
+<div class="banner">
+    <h1>Book a Table</h1>
+    <p>Reserve your spot at CHARCOAL</p>
+</div>
+
+<!-- Booking Section -->
+<div class="booking-section">
+    <h2>Reserve Your Table Now</h2>
+    <form class="booking-form">
+        <input type="text" name="name" placeholder="Your Full Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="tel" name="phone" placeholder="Your Phone Number" required>
+        <select name="guests" required>
+            <option value="" disabled selected>Number of Guests</option>
+            <option value="1">1 Guest</option>
+            <option value="2">2 Guests</option>
+            <option value="3">3 Guests</option>
+            <option value="4">4 Guests</option>
+            <option value="5">5 Guests</option>
+            <option value="6+">6+ Guests</option>
+        </select>
+        <input type="date" name="date" required>
+        <input type="time" name="time" required>
+        <button type="submit">Book Now</button>
+    </form>
+</div>
+
+</body>
+</html>
+
+
+
